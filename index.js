@@ -5,12 +5,12 @@ class Circle {
     this.radius = radius; 
   }
   get diameter(){
-    return 2*radius; 
+    return 2 * this.radius; 
   }
   get circumference(){
-    
+    return 
   }
   get area(){
-    
+    return this.radius * Math.PI 
   }
 }
