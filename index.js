@@ -14,12 +14,12 @@ class Circle {
     return (this.radius ** 2 * Math.PI);  
   }
   set diameter(newdiam){
-    
+    this.radius = (newdiam/2); 
   }
   set circumference(newcircum){
-    
+    this.radius = (newcircum/Math.PI)/2; 
   }
   set area(newarea){
-    
+    this.radius = Math.sqrt(newarea/Math.PI); 
   }
 }
